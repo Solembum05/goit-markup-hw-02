@@ -12,7 +12,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.02em;
   background-color: var(--white);
 }
 .list {
@@ -42,12 +41,14 @@ body {
 .main-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--text);
 }
 .main-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .section-title {
@@ -56,6 +57,7 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: var(--dark);
 }
 /* ----------Header-------------------- */
@@ -82,11 +84,12 @@ body {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--dark);
   text-decoration: none;
 }
-.menu :hover,
-.menu :focus {
+.menu:hover,
+.menu:focus {
   color: var(--pressed-state);
 }
 
@@ -98,9 +101,10 @@ body {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.address :hover,
-.address :focus {
+.address:hover,
+.address:focus {
   color: var(--pressed-state);
 }
 /*-------------- Hero----------------- */
@@ -110,7 +114,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: var(--white); */
+  color: var(--white);
 }
 
 .hero-btn {
@@ -154,9 +158,9 @@ body {
   color: var(--light);
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--accent);
 }
 /*-------------------PORTFOLIO------------ */
